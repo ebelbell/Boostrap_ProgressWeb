@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!--nav bar-->
+    <nav>
+        <h4>Progress Report</h4>
+        <div class="userAccount"><a href="#">My Account</a></div>
+    </nav>
+
+    <!-- Dashboard Panel example-->
+    <nav class="navbar bg-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="sidebar">
+            <!-- Sidebar content goes here -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <!-- Link to a new section within the same page-->
+                    <a class="#dashboard" href="#">Dashboard</a>
+                    <a class="#charts" href="#">Charts</a>
+                    <a class="#table" href="#">Tables</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br><!-- Dashboard header-->
+    <h1 id="dashbooard">Dashboard</h1>
+    <p>Dashboard</p>
+
+    <br><!-- 4 color cards-->
+    <div class="container-fluid">           
+        <div class="row">
+           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Primary Card</div>
+           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Warning Card</div>
+           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Success Card</div>
+           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">Danger Card</div>
+        </div>
+    </div>
+
+    <!--Create progress bar or chart here (completed, incomplete, or in-progress)-->
+
+
+    <br><!-- Data Table Example section-->
+    <h5>DataTable Example</h5>
+        <!--dropdown menu for entries per page -->
+        <div class="dropdown">
+            <div class="entriesButton">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">10
+                <span class="caret"></span></button> 
+                <p class="textSpace"> entries per page</p>
+            
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">5</a>
+                    <a href="#" class="dropdown-item">10</a>
+                    <a href="#" class="dropdown-item">15</a>
+                    <a href="#" class="dropdown-item">20</a>
+                </div>
+            </div>
+         </div>
+
+
+    <!--section for table-->
+    <section class="box">
+
+        <!--table for employee data-->
+        <table class="table">
+            <thead>
+            <tr><strong>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Status</th></strong>
+            </tr>
+            </thead>
+            <tbody>
+            <!--Mary-->
+            <tc>
+                <td>Mary</td>
+                <td>CEO</td>
+                <td>Tokyo</td>
+                <td>In Progress</td>
+            </tc>
+            <!--John-->
+            <tr>
+                <td>John</td>
+                <td>COO</td>
+                <td>Tokyo</td>
+                <td>In Progress</td>
+            </tr>
+            <!--Beatrice-->
+            <tr>
+                <td>Beatrice</td>
+                <td>Head of Sales</td>
+                <td>Calgary</td>
+                <td>Incomplete</td>
+            </tr>
+            <!--Elliot-->
+            <tr>
+                <td>Elliot</td>
+                <td>Marketing Director</td>
+                <td>Cancun</td>
+                <td>In Progress</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <!--pagination (previous and next page)-->
+        <nav aria-label="..." class="pages">
+            <ul class="pagination">
+                <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                </li>
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">1</a>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul></div>
+        </nav>
+    </section>
+
+    <!-- Add HTMl goes above JS tag -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center the content */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+.navbar-toggler-icon {  /*makes the nav bar icon*/
+    font-size: 0.75rem; 
+}
+
+.userAccount {
+    display: flex;
+    justify-content: right;
+}
+
+
+.entriesButton {
+    display: inline-flex; /* Display button and text in a row */
+    align-items: center; /* Vertically center the content */
+}
+
+.textSpace {
+    margin-left: 10px; /*this gives space between the button and text in the DataTable section*/
+}
+
+li { /*list for the nav panel (left)*/
+    list-style-type: none;
+}
+
+.pages{ /*put the page directory to the right*/
+    justify-content: flex-end;
+}
+
